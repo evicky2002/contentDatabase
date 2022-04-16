@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+}
+.left{
+    width:50%;
+    background-color: #fca311;
+    padding: 20px;
+}
+.left > h1{
+    color: #14213d;
+}
+.right > h1{
+    color: #fca311;
+}
+.right{
+    width:50%;
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 20px;
+}
